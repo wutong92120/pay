@@ -13,13 +13,15 @@
 	"nonce_str":"zcmxk"
 }
 
-对请求参数进行Base64加密，放到m=后面跳转页面
+对请求参数json串进行Base64加密，放到m=后面跳转url
 例子:
-Base64('{"tp_trade_no":"1271TP1487057748363124","mch_key":"hkdrg","total_fee":0.01,"nonce_str":"zcmxk"}');
-String str = "eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLG1jaF9rZXk6ImhrZHJnIiwidG90YWxfZmVlIjowLjAxfQ==";
-
+对{"tp_trade_no":"1271TP1487057748363124","mch_key":"hkdrg","total_fee":0.01,"nonce_str":"zcmxk"}进行Base64得到的加密串为:
+eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
+把加密串放到m=后面,
+即m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
 跳转url:
-http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
+http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWU
+iOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
 
 ```
 参数说明：
