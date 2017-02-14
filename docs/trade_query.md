@@ -115,7 +115,7 @@ nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=hkdrg
 		<tr>
 			<td>payment_type</td>
 			<td>数字</td>
-			<td>1微信 2支付宝 4京东支付 5QQ支付</td>
+			<td>支付方式: 1微信 2支付宝 4京东支付 5QQ支付</td>
 		</tr>
 		<tr>
 			<td>tp_trade_no</td>
