@@ -1,8 +1,8 @@
 # 发起JSSDK支付
 
 ## URL
-   测试环境: http://qa.maxfun.co/qrcode?m=
-   正式环境:
+   * 测试环境: http://qa.maxfun.co/qrcode?m=
+   * 正式环境:
    
 ## Request
 ```
@@ -18,7 +18,8 @@
 Base64('{"tp_trade_no":"1271TP1487057748363124","mch_key":"hkdrg","total_fee":0.01,"nonce_str":"zcmxk"}');
 String str = "eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLG1jaF9rZXk6ImhrZHJnIiwidG90YWxfZmVlIjowLjAxfQ==";
 
-跳转url=http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
+跳转url:
+http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
 
 ```
 参数说明：
