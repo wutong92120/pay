@@ -48,7 +48,7 @@ nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=hkdrg
 		<tr>
             <td>tp_trade_no</th>
             <td>字符型</th>
-            <td>商户订单号，32个字符内、可包含字母，确保在商户系统唯一</th>
+            <td>商户订单号</th>
             <td>是</th>
         </tr>
 		<tr>
