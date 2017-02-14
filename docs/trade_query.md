@@ -3,7 +3,7 @@
 	提交刷卡支付请求数据
 
 ## URL
-   {BASE_URL}/maxfunpay/services/tp/scan_pay
+   {BASE_URL}/maxfunpay/services/tp/trade_query
 
 ## Method
    POST
@@ -16,21 +16,19 @@
 ## Request
 ```
 {
-	"mch_key":"111333",
-	"tp_trade_no":"12601486038696068670",
-	"auth_code":"130149729103798799",
-	"total_fee":0.01,
+	"mch_key":"hkdrg",
+	"tp_trade_no":"1484657785743165",
 	"nonce_str":"azfkglz",
-	"sign":"2ec08d54493ad3a97ec6065f44f851d8"
+	"sign":"a31bd1d063fd870c6af12bb0a6b8565c"
 }
 
 sign签名生成方式:
-auth_code=&nonce_str=&total_fee&tp_trade_no&mch_key=
+nonce_str=&tp_trade_no&mch_key=
 通过传递的参数按首字母排序拼接，最后拼上mch_key生成一个字符串，对此字符串进行MD5加密得到
 例子：
 对此字符串进行MD5加密
-auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=12601486038696068670&mch_key=111333
-得到，2ec08d54493ad3a97ec6065f44f851d8，sign不区分大小写
+nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=hkdrg
+得到，a31bd1d063fd870c6af12bb0a6b8565c，sign不区分大小写
 
 ```
 <table data-tablesaw-sortable>
@@ -51,18 +49,6 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=126014
             <td>tp_trade_no</th>
             <td>字符型</th>
             <td>商户订单号，32个字符内、可包含字母，确保在商户系统唯一</th>
-            <td>是</th>
-        </tr>
-		<tr>
-            <td>auth_code</th>
-            <td>字符型</th>
-            <td>用户付款码</th>
-            <td>是</th>
-        </tr>
-		<tr>
-            <td>total_fee</th>
-            <td>数字(Double)</th>
-            <td>支付金额,单位:元</th>
             <td>是</th>
         </tr>
 		<tr>
@@ -89,12 +75,13 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=126014
     "message": "success"
   },
   "result": {
-    "ret": 0,
-    "msg": "支付成功",
-    "identifier": "o9dNzw96W2W6ni3f3ZdQ2_EGsBPM",
-    "total_fee": 0.01,
+    "identifier": null,
+    "mch_key": "hkdrg",
+    "tp_trade_no": "1484657785743165",
+    "pay_status": 0,
     "payment_type": 1,
-	"out_trade_no":"1271TP1486985534418791"
+    "total_fee": 0.01,
+    "out_trade_no": "1271TP1487057748363124"
   }
 }
 ```
@@ -106,14 +93,9 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=126014
             <th data-tablesaw-sortable-col>描述</th>
         </tr>
 		<tr>
-			<td>ret</th>
+			<td>pay_status</th>
 			<td>数字</th>
-			<td>为0即支付成功，详细看ret返回码说明</th>
-		</tr>
-		<tr>
-			<td>msg</th>
-			<td>字符串</th>
-			<td>返回信息，例如错误信息</th>
+			<td>0-未付款 1-已支付 3-取消支付订单 4-已退款</th>
 		</tr>
 		<tr>
 			<td>identifier</th>
@@ -121,6 +103,10 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=126014
 			<td>用户标识符, ret等于0才有返回</th>
 		</tr>
 		<tr>
+			<td>mch_key</th>
+			<td>字符串</th>
+			<td>商户标识符</th>
+		</tr>
 		<tr>
 			<td>total_fee</th>
 			<td>数字(Double)</th>
@@ -141,40 +127,5 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=126014
 			<td>字符串</td>
 			<td>交易单号</td>
 		</tr>
-    </thead>
-<table>
-
-## ret返回值说明
-
-<table data-tablesaw-sortable>
-    <thead>
-        <tr>
-            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>ret返回值</th>
-            <th data-tablesaw-sortable-col>描述</th>
-        </tr>
-		<tr>
-			<td>0</th>
-			<td>支付成功</th>
-		</tr>
-		<tr>
-			<td>101</th>
-			<td>网络延迟，请以顾客支付状态为准！(该状态有可能是支付成功，需要跟用户核实)</th>
-		</tr> 
-		<tr>
-			<td>102</th>
-			<td>系统繁忙，稍后再试。</th>
-		</tr>
-		<tr>
-			<td>103</th>
-			<td>支付失败，详细看返回的msg内容</th>
-		</tr>
-		<tr>
-			<td>108</th>
-			<td>需要用户输入支付密码</th>
-		</tr> 
-		<tr>
-			<td>109</th>
-			<td>支付金额必须小于等于5000000</th>
-		</tr> 
     </thead>
 <table>
