@@ -85,7 +85,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
     "ret": 0,
     "msg": "支付成功",
     "identifier": "o9dNzw96W2W6ni3f3ZdQ2_EGsBPM",
-    "totalFee": 0.01,
+    "total_fee": 0.01,
     "payment_type": 1,
 	"out_trade_no":"1271TP1486985534418791"
   }
@@ -115,7 +115,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
 		</tr>
 		<tr>
 		<tr>
-			<td>totalFee</th>
+			<td>total_fee</th>
 			<td>数字(Double)</th>
 			<td>交易金额</th>
 		</tr>
@@ -129,5 +129,40 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
 			<td>字符串</td>
 			<td>交易单号</td>
 		</tr>
+    </thead>
+<table>
+
+## ret返回码说明
+
+<table data-tablesaw-sortable>
+    <thead>
+        <tr>
+            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>ret返回值</th>
+            <th data-tablesaw-sortable-col>描述</th>
+        </tr>
+		<tr>
+			<td>0</th>
+			<td>交易成功</th>
+		</tr>
+		<tr>
+			<td>101</th>
+			<td>网络延迟，请以顾客支付状态为准！(该状态有可能是支付成功，需要跟用户核实)</th>
+		</tr> 
+		<tr>
+			<td>102</th>
+			<td>系统繁忙，稍后再试。</th>
+		</tr>
+		<tr>
+			<td>103</th>
+			<td>支付失败详细看返回的msg内容</th>
+		</tr>
+		<tr>
+			<td>108</th>
+			<td>需要用户输入支付密码</th>
+		</tr> 
+		<tr>
+			<td>109</th>
+			<td>支付金额必须小于等于5000000</th>
+		</tr> 
     </thead>
 <table>
