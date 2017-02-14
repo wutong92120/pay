@@ -10,12 +10,13 @@
 
 ### 接入流程说明
   我们推荐一般按照下面的步骤进行数据对接：  
-  1. 要联系一满乐创建一个商户,获取商户mch_key,mch_key是一个商户唯一标识符，用于调接口所需参数
+  1. 要联系一满乐创建一个商户,获取商户mch_key, mch_key是商户唯一标识符，用于调接口所需参数
   2. 调用接口
 
 ---
 ### 数据接入接口说明
   * [刷卡支付](https://github.com/maxfunapi/pay/blob/master/docs/scan_pay.md)
+  * [查询交易](https://github.com/maxfunapi/pay/blob/master/docs/trade_query.md)
   
 ---
 
