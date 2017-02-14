@@ -16,7 +16,7 @@
 ---
 ### 数据接入接口说明
   * [刷卡支付](https://github.com/maxfunapi/pay/blob/master/docs/scan_pay.md)
-  * [查询交易](https://github.com/maxfunapi/pay/blob/master/docs/trade_query.md)
+  * [交易查询](https://github.com/maxfunapi/pay/blob/master/docs/trade_query.md)
   
 ---
 

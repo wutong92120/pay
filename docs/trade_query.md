@@ -1,6 +1,6 @@
-# 刷卡支付
+# 交易查询
 
-	提交刷卡支付请求数据
+	交易查询
 
 ## URL
    {BASE_URL}/maxfunpay/services/tp/trade_query
