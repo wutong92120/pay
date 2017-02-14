@@ -15,7 +15,8 @@
 
 对请求参数json串进行Base64加密，放到m=后面跳转url
 例子:
-对{"tp_trade_no":"1271TP1487057748363124","mch_key":"hkdrg","total_fee":0.01,"nonce_str":"zcmxk"}进行Base64得到的加密串为:
+对{"tp_trade_no":"1271TP1487057748363124","mch_key":"hkdrg","total_fee":0.01,"nonce_str":"zcmxk"}
+进行Base64得到的加密串为:
 eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
 把加密串放到m=后面,
 即m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
@@ -40,6 +41,11 @@ iOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
             <td>商户标识符</th>
             <td>是</th>
         </tr>
+		<tr>
+			<td>total_fee</th>
+			<td>数字(Double)</th>
+			<td>交易金额</th>
+		</tr>
 		<tr>
             <td>tp_trade_no</th>
             <td>字符型</th>
