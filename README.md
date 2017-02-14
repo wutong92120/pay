@@ -3,6 +3,7 @@
 ---   
   * API接入（测试环境）： 
   * API接入（正式环境）：
+  
 ---   
   
 ---
@@ -14,7 +15,8 @@
 
 ---
 ### 数据接入接口说明
-  * [刷卡支付](https://github.com/maxfunapi/haokeapi/blob/master/docs/scan_pay.md)
+  * [刷卡支付](https://github.com/maxfunapi/pay/blob/master/docs/scan_pay.md)
+  
 ---
 
 
