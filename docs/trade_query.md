@@ -95,7 +95,7 @@ nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=hkdrg
 		<tr>
 			<td>pay_status</th>
 			<td>数字</th>
-			<td>0-未付款 1-已支付 3-取消支付订单 4-已退款</th>
+			<td>付款状态: 0-未付款 1-已支付 3-取消支付订单 4-已退款</th>
 		</tr>
 		<tr>
 			<td>identifier</th>
@@ -115,7 +115,7 @@ nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=hkdrg
 		<tr>
 			<td>payment_type</td>
 			<td>数字</td>
-			<td>支付方式: 1微信 2支付宝 4京东支付 5QQ支付</td>
+			<td>支付方式: 1-微信 2-支付宝 4-京东支付 5-QQ支付</td>
 		</tr>
 		<tr>
 			<td>tp_trade_no</td>
