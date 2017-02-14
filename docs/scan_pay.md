@@ -101,7 +101,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
 		<tr>
 			<td>ret</th>
 			<td>数字</th>
-			<td>为0即支付成功，其他值即交易失败</th>
+			<td>为0即支付成功，详细看ret返回码说明</th>
 		</tr>
 		<tr>
 			<td>msg</th>
@@ -132,7 +132,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
     </thead>
 <table>
 
-## ret返回码说明
+## ret返回值说明
 
 <table data-tablesaw-sortable>
     <thead>
@@ -142,7 +142,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
         </tr>
 		<tr>
 			<td>0</th>
-			<td>交易成功</th>
+			<td>支付成功</th>
 		</tr>
 		<tr>
 			<td>101</th>
@@ -154,7 +154,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&mch_key=111333
 		</tr>
 		<tr>
 			<td>103</th>
-			<td>支付失败详细看返回的msg内容</th>
+			<td>支付失败，详细看返回的msg内容</th>
 		</tr>
 		<tr>
 			<td>108</th>
