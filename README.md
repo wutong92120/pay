@@ -13,7 +13,9 @@
   1. 在一满乐创建商户,每个商户会对应一个mch_key;
   2. 从接入方的付款界面点击“微信支付”，跳转到我们指定的URL，在该界面会直接激活微信输密码的控件，用户输入密码，交易完成。支付界面URL详情请参考[发起JSSDK支付];
   3. 支付成功后，我们会回调接入方指定的回调url来更新支付状态（回调URL在创建商户时指定);
+  
 ---
+
 ### 数据接入接口说明
   * [发起JSSDK支付](https://github.com/maxfunapi/pay/blob/master/docs/js_pay.md)
   * [JSSDK支付结果异步通知](https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
