@@ -2,8 +2,8 @@
 
 ---   
 
-  测试环境： http://qa.maxfun.co
-  正式环境： http://tp.maxfun.co
+  1. 测试环境： http://qa.maxfun.co
+  2. 正式环境： https://tp.maxfun.co
   
 ---   
   
