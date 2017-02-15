@@ -1,8 +1,8 @@
-# ·¢ÆðJSSDKÖ§¸¶
+# å‘èµ·JSSDKæ”¯ä»˜
 
 ## URL
-   * ²âÊÔ»·¾³: http://qa.maxfun.co/qrcode?m=
-   * ÕýÊ½»·¾³:
+   * æµ‹è¯•çŽ¯å¢ƒ: http://qa.maxfun.co/qrcode?m=
+   * æ­£å¼çŽ¯å¢ƒ: http://pay.maxfun.co/qrcode?m=
    
 ## Request
 ```
@@ -13,56 +13,56 @@
 	"nonce_str":"zcmxk"
 }
 
-¶ÔÇëÇó²ÎÊýjson´®½øÐÐBase64¼ÓÃÜ£¬·Åµ½m=ºóÃæÌø×ªurl
-Àý×Ó:
-¶Ô{"tp_trade_no":"1271TP1487057748363124","mch_key":"378284f3-31d4-4d75-8c3a-0c540ee67034","total_fee":0.01,"nonce_str":"zcmxk"}
-½øÐÐBase64µÃµ½µÄ¼ÓÃÜ´®Îª:
+å¯¹è¯·æ±‚å‚æ•°jsonä¸²è¿›è¡ŒBase64åŠ å¯†ï¼Œæ”¾åˆ°m=åŽé¢è·³è½¬url
+ä¾‹å­:
+å¯¹{"tp_trade_no":"1271TP1487057748363124","mch_key":"378284f3-31d4-4d75-8c3a-0c540ee67034","total_fee":0.01,"nonce_str":"zcmxk"}
+è¿›è¡ŒBase64å¾—åˆ°çš„åŠ å¯†ä¸²ä¸º:
 eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc1LThjM2EtMGM1NDBlZTY3MDM0I
 iwidG90YWxfZmVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
-°Ñ¼ÓÃÜ´®·Åµ½m=ºóÃæ,
-¼´m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc1LThjM2EtMGM1NDBlZTY3MDM0IiwidG90YWxfZ
+æŠŠåŠ å¯†ä¸²æ”¾åˆ°m=åŽé¢,
+å³m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc1LThjM2EtMGM1NDBlZTY3MDM0IiwidG90YWxfZ
 mVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
-Ìø×ªurl:
+è·³è½¬url:
 http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc
 1LThjM2EtMGM1NDBlZTY3MDM0IiwidG90YWxfZmVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 
 ```
-²ÎÊýËµÃ÷£º
+å‚æ•°è¯´æ˜Žï¼š
 
 <table data-tablesaw-sortable>
     <thead>
         <tr>
-            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>×Ö¶ÎÃû³Æ</th>
-            <th data-tablesaw-sortable-col>ÀàÐÍ</th>
-            <th data-tablesaw-sortable-col>ÃèÊö</th>
-            <th data-tablesaw-sortable-col>ÊÇ·ñ±ØÌî</th>
+            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>å­—æ®µåç§°</th>
+            <th data-tablesaw-sortable-col>ç±»åž‹</th>
+            <th data-tablesaw-sortable-col>æè¿°</th>
+            <th data-tablesaw-sortable-col>æ˜¯å¦å¿…å¡«</th>
         </tr>
 		<tr>
             <td>mch_key</th>
-            <td>×Ö·ûÐÍ</th>
-            <td>ÉÌ»§±êÊ¶·û</th>
-            <td>ÊÇ</th>
+            <td>å­—ç¬¦åž‹</th>
+            <td>å•†æˆ·æ ‡è¯†ç¬¦</th>
+            <td>æ˜¯</th>
         </tr>
 		<tr>
 			<td>total_fee</th>
-			<td>Êý×Ö(Double)</th>
-			<td>½»Ò×½ð¶î</th>
-			<td>ÊÇ</th>
+			<td>æ•°å­—(Double)</th>
+			<td>äº¤æ˜“é‡‘é¢</th>
+			<td>æ˜¯</th>
 		</tr>
 		<tr>
             <td>tp_trade_no</th>
-            <td>×Ö·ûÐÍ</th>
-            <td>ÉÌ»§¶©µ¥ºÅ</th>
-            <td>ÊÇ</th>
+            <td>å­—ç¬¦åž‹</th>
+            <td>å•†æˆ·è®¢å•å·</th>
+            <td>æ˜¯</th>
         </tr>
 		<tr>
             <td>nonce_str</th>
-            <td>×Ö·ûÐÍ</th>
-            <td>Ëæ»ú×Ö·û´®(½¨ÒéÃ¿´ÎÇëÇó¶¼ÊÇËæ»úÉú³ÉµÄ)</th>
-            <td>ÊÇ</th>
+            <td>å­—ç¬¦åž‹</th>
+            <td>éšæœºå­—ç¬¦ä¸²(å»ºè®®æ¯æ¬¡è¯·æ±‚éƒ½æ˜¯éšæœºç”Ÿæˆçš„)</th>
+            <td>æ˜¯</th>
         </tr>
     </thead>
 <table>
 
-## JSSDKÖ§¸¶½á¹ûÍ¨Öª
-* [JSSDKÖ§¸¶½á¹ûÍ¨ÖªËµÃ÷ÎÄµµ](https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
+## JSSDKæ”¯ä»˜ç»“æžœé€šçŸ¥
+* [JSSDKæ”¯ä»˜ç»“æžœé€šçŸ¥è¯´æ˜Žæ–‡æ¡£](https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
