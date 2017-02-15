@@ -2,7 +2,7 @@
 
 ## URL
    * 测试环境: http://qa.maxfun.co/qrcode?m=
-   * 正式环境: http://pay.maxfun.co/qrcode?m=
+   * 正式环境: https://tp.maxfun.co/qrcode?m=
    
 ## Request
 ```
