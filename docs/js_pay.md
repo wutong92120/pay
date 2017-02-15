@@ -45,6 +45,7 @@ iOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
 			<td>total_fee</th>
 			<td>数字(Double)</th>
 			<td>交易金额</th>
+			<td>是</th>
 		</tr>
 		<tr>
             <td>tp_trade_no</th>
@@ -60,3 +61,6 @@ iOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
         </tr>
     </thead>
 <table>
+
+## JSSDK支付结果通知
+JSSDK支付结果通知说明文档(https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
