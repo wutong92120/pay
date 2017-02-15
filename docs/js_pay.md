@@ -7,10 +7,10 @@
 ## Request
 ```
 {
-    "tp_trade_no": "1271TP1487057748363124",
-    "mch_key": "378284f3-31d4-4d75-8c3a-0c540ee67034",
-    "total_fee": 1,
-	"nonce_str":"zcmxk"
+    "tp_trade_no": "1000007", 
+    "mch_key": "378284f3-31d4-4d75-8c3a-0c540ee6", 
+    "total_fee": "1", 
+    "nonce_str": "123213123"
 }
 
 对请求参数json串进行Base64加密，放到m=后面跳转url
@@ -24,8 +24,7 @@ MGM1NDBlZTY3MDM0IiwidG90YWxfZmVlIjoxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 MGM1NDBlZTY3MDM0IiwidG90YWxfZmVlIjoxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 mVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 跳转url:
-http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc1LThjM2Et
-MGM1NDBlZTY3MDM0IiwidG90YWxfZmVlIjoxLCJub25jZV9zdHIiOiJ6Y214ayJ9
+http://qa.maxfun.co/qrcode?m=ewogICAgInRwX3RyYWRlX25vIjogIjEwMDAwMDciLCAKICAgICJtY2hfa2V5IjogIjM3ODI4NGYzLTMxZDQtNGQ3NS04YzNhLTBjNTQwZWU2IiwgCiAgICAidG90YWxfZmVlIjogIjEiLCAKICAgICJub25jZV9zdHIiOiAiMTIzMjEzMTIzIgp9
 
 ```
 参数说明：
