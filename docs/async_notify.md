@@ -17,13 +17,13 @@
 ```
 {
     "identifier": null,
-    "mch_key": "hkdrg",
+    "mch_key": "378284f3-31d4-4d75-8c3a-0c540ee67034",
     "tp_trade_no": "1484657785743165",
     "pay_status": 0,
     "payment_type": null,
     "total_fee": 0.01,
     "out_trade_no": "1271TP1487057748363124",
-	"sign":"c3b50fe314c06b05d57f478709368304"
+    "sign":"c3b50fe314c06b05d57f478709368304"
 }
 
 sign签名生成方式:
