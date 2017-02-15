@@ -45,8 +45,8 @@ http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQ
         </tr>
 		<tr>
 			<td>total_fee</th>
-			<td>数字（Double),最多保留2位小数</th>
-			<td>交易金额</th>
+			<td>数字（Double)</th>
+			<td>交易金额,最多保留2位小数</th>
 			<td>是</th>
 		</tr>
 		<tr>
