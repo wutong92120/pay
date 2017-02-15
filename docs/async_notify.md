@@ -16,11 +16,11 @@
 ## Request
 ```
 {
-    "identifier": null,
+    "identifier": "o9dNzw96W2W6ni3f3ZdQ2_EGsBPM",
     "mch_key": "hkdrg",
     "tp_trade_no": "1484657785743165",
-    "pay_status": 0,
-    "payment_type": null,
+    "pay_status": 1,
+    "payment_type": 1,
     "total_fee": 0.01,
     "out_trade_no": "1271TP1487057748363124",
 	"sign":"c3b50fe314c06b05d57f478709368304"
@@ -30,8 +30,8 @@ sign签名生成方式:
 通过传递的参数按首字母排序拼接(值为空的去掉)，最后拼上mch_key生成一个字符串，对此字符串进行MD5加密得到sign值
 例子：
 对此字符串进行MD5加密
-out_trade_no=1271TP1487057748363124&pay_status=0&total_fee=0.01&tp_trade_no=1484657785743165&mch_key=hkdrg
-得到，c3b50fe314c06b05d57f478709368304，sign不区分大小写
+identifier=o9dNzw96W2W6ni3f3ZdQ2_EGsBPM&out_trade_no=1271TP1487057748363124&pay_status=1&payment_type=1&total_fee=0.01&tp_trade_no=1484657785743165&mch_key=hkdrg
+得到，9408cedaa210deb4cbce4841a49ca8bd，sign不区分大小写
 
 ```
 <table data-tablesaw-sortable>
