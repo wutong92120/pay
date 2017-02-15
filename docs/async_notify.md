@@ -49,7 +49,7 @@ out_trade_no=1271TP1487057748363124&pay_status=0&total_fee=0.01&tp_trade_no=1484
 		<tr>
 			<td>identifier</th>
 			<td>字符串</th>
-			<td>用户标识符, ret等于0才有返回</th>
+			<td>用户标识符, pay_status等于1才有返回</th>
 		</tr>
 		<tr>
 			<td>mch_key</th>
