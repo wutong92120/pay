@@ -21,17 +21,17 @@
     "tp_trade_no": "1484657785743165",
     "pay_status": 1,
     "payment_type": 1,
-    "total_fee": 0.01,
+    "total_fee": 1,
     "out_trade_no": "1271TP1487057748363124",
-    "sign":"c3b50fe314c06b05d57f478709368304"
+    "sign":"e0f2c29f7042d156cc5bac9758acb2d1"
 }
 
 sign签名生成方式:
 通过传递的参数按首字母排序拼接(值为空的去掉)，最后拼上mch_key生成一个字符串，对此字符串进行MD5加密得到sign值
 例子：
 对此字符串进行MD5加密
-identifier=o9dNzw96W2W6ni3f3ZdQ2_EGsBPM&out_trade_no=1271TP1487057748363124&pay_status=1&payment_type=1&total_fee=0.01&tp_trade_no=1484657785743165&mch_key=378284f3-31d4-4d75-8c3a-0c540ee67034
-得到，2a31a91ec50e0476db191572e92edae6，sign不区分大小写
+identifier=o9dNzw96W2W6ni3f3ZdQ2_EGsBPM&out_trade_no=1271TP1487057748363124&pay_status=1&payment_type=1&total_fee=1&tp_trade_no=1484657785743165&mch_key=378284f3-31d4-4d75-8c3a-0c540ee67034
+得到，e0f2c29f7042d156cc5bac9758acb2d1，sign不区分大小写
 
 ```
 <table data-tablesaw-sortable>
@@ -57,10 +57,11 @@ identifier=o9dNzw96W2W6ni3f3ZdQ2_EGsBPM&out_trade_no=1271TP1487057748363124&pay_
 			<td>商户标识符</th>
 		</tr>
 		<tr>
-			<td>total_fee</th>
-			<td>数字(Double)</th>
-			<td>交易金额</th>
-		</tr>
+            <td>total_fee</th>
+            <td>整型</th>
+            <td>支付金额,单位:分</th>
+            <td>是</th>
+        </tr>
 		<tr>
 			<td>payment_type</td>
 			<td>数字</td>

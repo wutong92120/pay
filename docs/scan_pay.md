@@ -19,9 +19,9 @@
 	"mch_key":"378284f3-31d4-4d75-8c3a-0c540ee67034",
 	"tp_trade_no":"12601486038696068670",
 	"auth_code":"130149729103798799",
-	"total_fee":0.01,
+	"total_fee":1,
 	"nonce_str":"azfkglz",
-	"sign":"2ec08d54493ad3a97ec6065f44f851d8"
+	"sign":"259140fd9e2bbf84959d0ca01cbda417"
 }
 
 sign签名生成方式:
@@ -29,8 +29,8 @@ auth_code=&nonce_str=&total_fee&tp_trade_no&mch_key=
 通过传递的参数按首字母排序拼接，最后拼上mch_key生成一个字符串，对此字符串进行MD5加密得到
 例子：
 对此字符串进行MD5加密
-auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=12601486038696068670&mch_key=378284f3-31d4-4d75-8c3a-0c540ee67034
-得到，4a8dec9d919e894ee0c0e0d0a057bdce，sign不区分大小写
+auth_code=130149729103798799&nonce_str=azfkglz&total_fee=1&tp_trade_no=12601486038696068670&mch_key=378284f3-31d4-4d75-8c3a-0c540ee67034
+得到，259140fd9e2bbf84959d0ca01cbda417，sign不区分大小写
 
 ```
 <table data-tablesaw-sortable>
@@ -61,8 +61,8 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=0.01&tp_trade_no=126014
         </tr>
 		<tr>
             <td>total_fee</th>
-            <td>数字(Double)</th>
-            <td>支付金额,单位:元</th>
+            <td>整型</th>
+            <td>支付金额,单位:分</th>
             <td>是</th>
         </tr>
 		<tr>
