@@ -1,9 +1,8 @@
 ## 一满乐好客支付API文档
 
 ---
-  * [发起JSSDK支付](https://github.com/maxfunapi/pay/blob/master/docs/js_pay.md)
-  * [JSSDK支付结果异步通知](https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
-  
+  * [测试环境： http://qa.maxfun.co
+  * [正式环境： https://tp.maxfun.co
   
 ---   
   
