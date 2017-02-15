@@ -52,7 +52,7 @@ http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQ
 		<tr>
             <td>tp_trade_no</th>
             <td>字符型</th>
-            <td>第三方交易订单号，回调的会回传这个订单号</th>
+            <td>第三方交易订单号，回调时会回传这个订单号</th>
             <td>是</th>
         </tr>
 		<tr>
