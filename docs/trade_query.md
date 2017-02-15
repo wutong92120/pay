@@ -16,10 +16,10 @@
 ## Request
 ```
 {
-	"mch_key":"hkdrg",
+	"mch_key":"378284f3-31d4-4d75-8c3a-0c540ee67034",
 	"tp_trade_no":"1484657785743165",
 	"nonce_str":"azfkglz",
-	"sign":"a31bd1d063fd870c6af12bb0a6b8565c"
+	"sign":"06acad6e57d3091b61df59df76b39f5d"
 }
 
 sign签名生成方式:
@@ -27,8 +27,8 @@ nonce_str=&tp_trade_no&mch_key=
 通过传递的参数按首字母排序拼接，最后拼上mch_key生成一个字符串，对此字符串进行MD5加密得到
 例子：
 对此字符串进行MD5加密
-nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=hkdrg
-得到，a31bd1d063fd870c6af12bb0a6b8565c，sign不区分大小写
+nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=378284f3-31d4-4d75-8c3a-0c540ee67034
+得到，06acad6e57d3091b61df59df76b39f5d，sign不区分大小写
 
 ```
 <table data-tablesaw-sortable>

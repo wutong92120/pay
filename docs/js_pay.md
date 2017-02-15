@@ -8,21 +8,23 @@
 ```
 {
     "tp_trade_no": "1271TP1487057748363124",
-    "mch_key": "hkdrg",
+    "mch_key": "378284f3-31d4-4d75-8c3a-0c540ee67034",
     "total_fee": 0.01,
 	"nonce_str":"zcmxk"
 }
 
 对请求参数json串进行Base64加密，放到m=后面跳转url
 例子:
-对{"tp_trade_no":"1271TP1487057748363124","mch_key":"hkdrg","total_fee":0.01,"nonce_str":"zcmxk"}
+对{"tp_trade_no":"1271TP1487057748363124","mch_key":"378284f3-31d4-4d75-8c3a-0c540ee67034","total_fee":0.01,"nonce_str":"zcmxk"}
 进行Base64得到的加密串为:
-eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
+eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc1LThjM2EtMGM1NDBlZTY3MDM0I
+iwidG90YWxfZmVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 把加密串放到m=后面,
-即m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWUiOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
+即m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc1LThjM2EtMGM1NDBlZTY3MDM0IiwidG90YWxfZ
+mVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 跳转url:
-http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiaGtkcmciLCJ0b3RhbF9mZWU
-iOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
+http://qa.maxfun.co/qrcode?m=eyJ0cF90cmFkZV9ubyI6IjEyNzFUUDE0ODcwNTc3NDgzNjMxMjQiLCJtY2hfa2V5IjoiMzc4Mjg0ZjMtMzFkNC00ZDc
+1LThjM2EtMGM1NDBlZTY3MDM0IiwidG90YWxfZmVlIjowLjAxLCJub25jZV9zdHIiOiJ6Y214ayJ9
 
 ```
 参数说明：
