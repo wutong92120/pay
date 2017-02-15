@@ -17,8 +17,9 @@
 ### 数据接入接口说明
   * [刷卡支付](https://github.com/maxfunapi/pay/blob/master/docs/scan_pay.md)
   * [发起JSSDK支付](https://github.com/maxfunapi/pay/blob/master/docs/js_pay.md)
-  * [交易查询](https://github.com/maxfunapi/pay/blob/master/docs/trade_query.md)
   * [JSSDK支付结果异步通知](https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
+  * [交易查询](https://github.com/maxfunapi/pay/blob/master/docs/trade_query.md)
+  
   
 ---
 

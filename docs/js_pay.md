@@ -63,4 +63,4 @@ iOjAuMDEsIm5vbmNlX3N0ciI6InpjbXhrIn0=
 <table>
 
 ## JSSDK支付结果通知
-JSSDK支付结果通知说明文档(https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
+* [JSSDK支付结果通知说明文档](https://github.com/maxfunapi/pay/blob/master/docs/async_notify.md)
