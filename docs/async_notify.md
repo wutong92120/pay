@@ -17,7 +17,6 @@
 ```
 {
     "identifier": "o9dNzw96W2W6ni3f3ZdQ2_EGsBPM",
-    "identifier": null,
     "mch_key": "378284f3-31d4-4d75-8c3a-0c540ee67034",
     "tp_trade_no": "1484657785743165",
     "pay_status": 1,
