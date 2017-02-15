@@ -76,7 +76,7 @@ nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=378284f3-31d4-4d75-8c3a-0
   },
   "result": {
     "identifier": null,
-    "mch_key": "hkdrg",
+    "mch_key": "378284f3-31d4-4d75-8c3a-0c540ee67034",
     "tp_trade_no": "1484657785743165",
     "pay_status": 0,
     "payment_type": 1,
