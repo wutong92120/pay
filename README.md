@@ -2,6 +2,7 @@
 
 ---   
   * API接入（测试环境）： http://qa.maxfun.co
+  * API接入（测试环境）： http://qa.maxfun.co
   * API接入（正式环境）： http://tp.maxfun.co
   
 ---   
