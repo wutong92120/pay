@@ -170,7 +170,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=1&tp_trade_no=126014860
 		</tr>
 		<tr>
 			<td>108</th>
-			<td>需要用户输入支付密码</th>
+			<td>支付超时，该单已撤销，请重新扫描支付</th>
 		</tr> 
 		<tr>
 			<td>109</th>
