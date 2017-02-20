@@ -92,7 +92,7 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=1&tp_trade_no=126014860
     "ret": 0,
     "msg": "支付成功",
     "identifier": "o9dNzw96W2W6ni3f3ZdQ2_EGsBPM",
-    "total_fee": 0.01,
+    "total_fee": 1,
     "payment_type": 1,
 	"out_trade_no":"1271TP1486985534418791"
   }
@@ -123,8 +123,8 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=1&tp_trade_no=126014860
 		<tr>
 		<tr>
 			<td>total_fee</th>
-			<td>数字(Double)</th>
-			<td>交易金额</th>
+			<td>整形</th>
+			<td>支付金额,单位:分</th>
 		</tr>
 		<tr>
 			<td>payment_type</td>
