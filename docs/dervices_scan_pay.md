@@ -3,7 +3,7 @@
 	提交刷卡支付请求数据
 
 ## URL
-   {BASE_URL}/maxfunpay/services/tp/devices_scan_pay
+   测试环境地址:https://demo.maxfun.co/maxfunpay/services/tp/devices_scan_pay
 
 ## Method
    POST
