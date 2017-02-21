@@ -24,7 +24,7 @@
 }
 
 sign签名生成方式:
-auth_code=&total_fee&devices_key=
+auth_code=&nonce_str&total_fee&devices_key=
 通过传递的参数按首字母排序拼接，最后拼上access_token生成一个字符串，对此字符串进行MD5加密得到
 例子：
 对此字符串进行MD5加密
